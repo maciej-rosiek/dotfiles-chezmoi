@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/marosiek/.oh-my-zsh
+export ZSH=/home/mrosiek/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -53,7 +53,7 @@ plugins=(git)
 
 # User configuration
 
-export PATH="$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/home/marosiek/bin"
+export PATH="$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/home/mrosiek/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -95,7 +95,7 @@ alias vi=vim
 
 # export _JAVA_AWT_WM_NONREPARENTING=1
 
-[ -s "/home/marosiek/.jabba/jabba.sh" ] && source "/home/marosiek/.jabba/jabba.sh"
+[ -s "/home/mrosiek/.jabba/jabba.sh" ] && source "/home/mrosiek/.jabba/jabba.sh"
 
 [[ /usr/bin/kubectl ]] && source <(kubectl completion zsh)
 #source /usr/share/nvm/init-nvm.sh
@@ -106,5 +106,5 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/home/marosiek/.sdkman"
-[[ -s "/home/marosiek/.sdkman/bin/sdkman-init.sh" ]] && source "/home/marosiek/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="/home/mrosiek/.sdkman"
+[[ -s "/home/mrosiek/.sdkman/bin/sdkman-init.sh" ]] && source "/home/mrosiek/.sdkman/bin/sdkman-init.sh"
